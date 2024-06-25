@@ -34,6 +34,7 @@ body {
 .header-menu a {
   color: rgb(255, 255, 255);
   display: inline-block;
+  position: relative;
   padding: 16px 0px;
   font-size: 20px;
 }
@@ -41,9 +42,10 @@ body {
 .header-menu a:after{
   content:"";
   display: block;
+  position: absolute;
   height: 2px;
-  width: 100%;
-  background: #000000;
+  width: 0px;
+  background: #ffffff;
   margin-top: 5px;
   transition: 0.3s;
 }
@@ -63,15 +65,21 @@ a {
 }
 
 @media (max-width: 800px) {
+  /* Diminui o GAP */
   .header-menu {
     gap: 40px;
   }
 
+  /* Background do menu. Como se fossem botão */
   .header-menu a {
     background-color: #111111;
     padding: 14px 18px;
     border-radius: 4px
   }
+
+.header a::after{
+    display: none;
+}
 
   .header-menu a:hover{
     background-color: #2e2e2e;
@@ -79,6 +87,7 @@ a {
 }
 
 @media (max-width: 600px) {
+  /* Diminuimos mainda todos os atributos, para caber melhor na tela */
   .header-menu {
     gap: 15px;
   }
