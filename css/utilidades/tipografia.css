@@ -1,0 +1,8 @@
+.texto-grande{
+  font-size: 4rem;
+  line-height: 1.125;
+}
+
+.texto-medio{
+  font: 400 1.5rem/1.5 "Roboto", sans-serif;
+}
