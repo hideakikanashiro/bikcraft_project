@@ -3,6 +3,13 @@
 
 @import url(./global.css);
 @import url(./utilidades/tipografia.css);
-@import url(./utilidades/componentes.css);
 @import url(./header.css);
+
+/* UTILIDADES */
+@import url(./utilidades/componentes.css);
+
+/* HOME */
 @import url(./home/introducao.css);
+
+/* BICICLETA */
+@import url(./bicicletas/bicicletas-listas);
