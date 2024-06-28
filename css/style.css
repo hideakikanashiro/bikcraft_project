@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 
 @import url(./global.css);
 @import url(./utilidades/tipografia.css);
@@ -12,4 +14,4 @@
 @import url(./home/introducao.css);
 
 /* BICICLETA */
-@import url(./bicicletas/bicicletas-listas);
+@import url(./bicicletas/bicicletas-listas.css);

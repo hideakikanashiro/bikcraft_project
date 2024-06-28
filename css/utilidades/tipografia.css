@@ -1,8 +1,12 @@
-.texto-grande{
+.texto-grande {
   font-size: 4rem;
   line-height: 1.125;
 }
 
-.texto-medio{
+.texto-medio {
   font: 400 1.5rem/1.5 "Roboto", sans-serif;
+}
+
+.texto-grande2 {
+  font: 600 4rem/1.125 "Poppins", sans-serif;
 }
