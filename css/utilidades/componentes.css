@@ -1,4 +1,13 @@
 /* BOTÃO */
+.container{
+  box-sizing: border-box;
+  max-width: 1400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .botao {
   display: inline-block;
   color: rgb(44, 36, 2);
