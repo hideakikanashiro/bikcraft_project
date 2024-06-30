@@ -12,6 +12,7 @@
 
 /* HOME */
 @import url(./home/introducao.css);
+@import url(./home/tecnologia.css);
 
 /* BICICLETA */
 @import url(./bicicletas/bicicletas-listas.css);

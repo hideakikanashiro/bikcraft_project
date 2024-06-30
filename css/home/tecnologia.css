@@ -1,0 +1,25 @@
+
+.tecnologia-bg{
+  background-color:#0e0e0e
+}
+
+.tecnologia h2{
+  color: rgb(255, 255, 255);
+}
+
+.tecnologia p{
+  color: rgb(175, 175, 175);
+}
+
+.tecnologia{
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+  gap: 40px;
+}
+
+.tecnologia-img img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+object-position: left;
+}

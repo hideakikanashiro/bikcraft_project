@@ -3,10 +3,26 @@
   line-height: 1.125;
 }
 
+.texto-ponto span{
+  color: rgb(247, 223, 10);
+}
+
 .texto-medio {
   font: 400 1.5rem/1.5 "Roboto", sans-serif;
 }
 
+.texto-p-importante-cinza {
+  font: 600 1.2rem/1.5 "Roboto", sans-serif;
+  color: rgb(167, 167, 167);
+  text-transform: uppercase;
+}
+
 .texto-grande2 {
   font: 600 4rem/1.125 "Poppins", sans-serif;
+}
+
+.texto-p-titulo-grid {
+  font: 600 1.0rem/1.5 "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
 }
