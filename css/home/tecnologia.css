@@ -61,3 +61,53 @@ width: 100%;
 object-fit: cover;
 object-position: left;
 }
+
+.link{
+  display: inline-block;
+  color: rgb(238, 185, 14);
+  font: 600 1.5rem/1.5 "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+.link::after {
+  display: block;
+  content: "";
+  width: 100%; 
+  height: 5px;
+  background-color: currentColor;
+}
+
+.link:hover{
+  color: whitesmoke;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 800px){
+  .tecnologia-bg{
+    box-shadow: initial;
+  }
+  
+  .tecnologia{
+    grid-template-columns: 1fr;
+  }
+
+  .tecnologia-conteudo{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .tecnologia-img{
+    display: none;
+  }
+
+  .tecnologia a{
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 600px){
+  .tecnologia-vantagens{
+    flex-direction: column;
+  }
+}
