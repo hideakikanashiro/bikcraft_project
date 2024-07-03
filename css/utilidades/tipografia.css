@@ -13,7 +13,7 @@
 
 .texto-p-importante-cinza {
   font: 600 1.2rem/1.5 "Roboto", sans-serif;
-  color: rgb(167, 167, 167);
+  color: rgb(225, 225, 225);
   text-transform: uppercase;
 }
 
@@ -24,5 +24,11 @@
 .texto-p-titulo-grid {
   font: 600 1.0rem/1.5 "Roboto", sans-serif;
   color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+
+.texto-p-cinza {
+  font: 600 0.4rem/1.5 "Roboto", sans-serif;
+  color: rgb(167, 167, 167);
   text-transform: uppercase;
 }

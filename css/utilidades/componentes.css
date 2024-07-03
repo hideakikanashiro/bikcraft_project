@@ -18,12 +18,23 @@
   text-transform: uppercase;
   padding: 10px 16px;
   border-radius: 4px;
-  box-shadow: 0 1px 20px rgb(20, 20, 20, 0.1)
+  box-shadow: 0 1px 20px rgb(20, 20, 20, 0.1);
+  max-width: max-content;
 }
 
 .botao:hover {
   background: linear-gradient(rgb(226, 204, 9), rgb(116, 78, 10));
 }
+
+.botao .secundario{
+  background: rgb(30, 30, 30);
+  color: whitesmoke;
+}
+
+.botao .secundario:hover{
+  background: rgb(5, 5, 5);
+}
+
 
 @media (max-width: 1200px) {
   .botao {
