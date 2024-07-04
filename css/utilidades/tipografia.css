@@ -11,10 +11,26 @@
   font: 400 1.5rem/1.5 "Roboto", sans-serif;
 }
 
+.texto-medio-amarelo {
+  font: 800 1.7rem/1.5 "Poppins", sans-serif;
+  color: yellow;
+}
+
+.texto-medio-branco {
+  font: 800 1.7rem/1.5 "Poppins", sans-serif;
+  color: rgb(233, 233, 233);
+}
+
 .texto-p-importante-cinza {
   font: 600 1.2rem/1.5 "Roboto", sans-serif;
   color: rgb(225, 225, 225);
   text-transform: uppercase;
+}
+
+.texto-p-importante-cinza .texto-p {
+  font: 600 0.9rem/1.5 "Roboto", sans-serif;
+  color: rgb(218, 218, 218);
+  text-transform: lowercase;
 }
 
 .texto-grande2 {
