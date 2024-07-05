@@ -35,6 +35,18 @@
   background: rgb(5, 5, 5);
 }
 
+/* BG DE TODAS AS PÁGINAS INTERNAS */
+.titulo-bg{
+  background-color:#141414;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.titulo p{
+  margin-bottom: 6px;
+}
+
+/* MEDIA QUERY */
 
 @media (max-width: 1200px) {
   .botao {
@@ -46,5 +58,16 @@
 @media (max-width: 800px) {
   .botao {
     font-size: 16px;
+  }
+
+  .titulo-bg{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .titulo p{
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
   }
 }

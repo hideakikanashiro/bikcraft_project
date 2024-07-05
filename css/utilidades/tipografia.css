@@ -9,6 +9,7 @@
 
 .texto-medio {
   font: 400 1.5rem/1.5 "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
 }
 
 .texto-medio-amarelo {
@@ -29,7 +30,7 @@
 
 .texto-p-importante-cinza .texto-p {
   font: 600 0.9rem/1.5 "Roboto", sans-serif;
-  color: rgb(218, 218, 218);
+  color: rgb(235, 235, 235);
   text-transform: lowercase;
 }
 
@@ -47,4 +48,34 @@
   font: 600 0.4rem/1.5 "Roboto", sans-serif;
   color: rgb(167, 167, 167);
   text-transform: uppercase;
+}
+
+.texto-pequeno-footer{
+  font-size: 25px;
+  color:rgb(255, 255, 255);
+}
+
+.texto-pequeno-footer-desc {
+  font: 400 1.0rem/1.5 "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+
+.texto-grande-titulo {
+  font-size: 4rem;
+  line-height: 1.125;
+  color: white;
+}
+
+.termos-uso{
+  font: 600 1.4rem/1.3 "Poppins", sans-serif;
+  color: rgb(146, 146, 146);
+}
+
+.titulo-termos{
+  font: 600 1.2rem/1.5 "Poppins", sans-serif;
+}
+
+.titulo-termos-desc{
+  font: 200 0.9rem/1.5 "Poppins", sans-serif;
 }
