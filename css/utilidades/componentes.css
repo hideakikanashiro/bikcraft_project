@@ -1,5 +1,5 @@
 /* BOTÃO */
-.container{
+.container {
   box-sizing: border-box;
   max-width: 1400px;
   padding-left: 20px;
@@ -26,24 +26,45 @@
   background: linear-gradient(rgb(226, 204, 9), rgb(116, 78, 10));
 }
 
-.botao .secundario{
+.botao .secundario {
   background: rgb(30, 30, 30);
   color: whitesmoke;
 }
 
-.botao .secundario:hover{
+.botao .secundario:hover {
   background: rgb(5, 5, 5);
 }
 
 /* BG DE TODAS AS PÁGINAS INTERNAS */
-.titulo-bg{
-  background-color:#141414;
+.titulo-bg {
+  background-color: #141414;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.titulo p{
+.titulo p {
   margin-bottom: 6px;
+}
+
+.botao.seta {
+  display: flex;
+  align-items: center;
+ 
+}
+
+.botao.seta::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  margin-right: 15px;
+  background: url(../../img/icones/seta.svg);
+  transition: transform 0.3s;
+}
+
+.botao.seta:hover::after{
+  transform: translateX(4px);
 }
 
 /* MEDIA QUERY */
@@ -60,12 +81,12 @@
     font-size: 16px;
   }
 
-  .titulo-bg{
+  .titulo-bg {
     margin-top: 40px;
     margin-bottom: 40px;
   }
 
-  .titulo p{
+  .titulo p {
     font-size: 1rem;
     text-transform: lowercase;
     font-weight: 400;
