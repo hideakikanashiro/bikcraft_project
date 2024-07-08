@@ -66,6 +66,14 @@ left: -21px;
     grid-column: 1/-1;
 }
 
+/* PAGINA INTERNA SEGUROS */
+
+#seguros .seguros{
+    padding-top: 0px;
+}
+
+
+
 /* MEDIA QUERY */
 
 @media (max-width: 800px){
