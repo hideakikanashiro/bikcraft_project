@@ -3,8 +3,8 @@
 }
 
 .vantagens{
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .vantagens h2{
@@ -15,6 +15,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
     gap: 40px 80px;
+    margin-top: 120px;
 }
 
 .vantagens h3,

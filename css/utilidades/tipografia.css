@@ -3,7 +3,7 @@
   line-height: 1.125;
 }
 
-.texto-ponto span{
+.texto-ponto{
   color: rgb(247, 223, 10);
 }
 
@@ -23,8 +23,8 @@
 }
 
 .texto-p-importante-cinza {
-  font: 600 1.2rem/1.5 "Roboto", sans-serif;
-  color: rgb(225, 225, 225);
+  font: 600 1.3rem/1.5 "Roboto", sans-serif;
+  color: rgb(245, 245, 245);
   text-transform: uppercase;
 }
 
@@ -80,9 +80,21 @@
   font: 200 0.9rem/1.5 "Poppins", sans-serif;
 }
 
+.texto-pm-cinza {
+  font: 400 1.2rem/1.5 "Poppins", sans-serif;
+  color: rgb(218, 218, 218);
+}
 
 /* COLOR */
 
 .c-white{
   color: white;
+}
+
+.c-cinza{
+  color: rgb(163, 163, 163);
+}
+
+.c-black{
+  color: rgb(14, 14, 14);
 }
