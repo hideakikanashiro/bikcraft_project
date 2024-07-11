@@ -29,3 +29,7 @@
 /* BICICLETA */
 @import url(./bicicletas/bicicletas-listas.css);
 @import url(./bicicletas/bicicletas.css);
+
+/* BICICLETAS INTENRO */
+
+@import url(./bicicletas-interno/bicicleta.css);
