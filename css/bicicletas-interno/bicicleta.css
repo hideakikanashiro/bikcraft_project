@@ -23,7 +23,7 @@
 }
 
 .bicicleta-conteudo>p {
-    margin-bottom: 32px;
+    margin-bottom: 32px; 
 }
 
 .bicicleta-comprar {
@@ -87,6 +87,8 @@
 .bicicleta-ficha li:last-child {
     border-bottom: none;
 }
+
+
 
 /* MEDIA QUERY */
 
