@@ -61,6 +61,11 @@
   text-transform: uppercase;
 }
 
+.texto-p-detalhes {
+  font: 300 1.0rem/1.5 "Roboto", sans-serif;
+  color: rgb(241, 241, 241);
+}
+
 .texto-grande-titulo {
   font-size: 4rem;
   line-height: 1.125;
@@ -85,6 +90,13 @@
   color: rgb(218, 218, 218);
 }
 
+.icon-p-texto {
+  font: 400 0.8rem/1.5 "Poppins", sans-serif;
+}
+
+.texto-roboto-titulo-p{
+  font: 600 1.0rem/1.5 "Roboto", sans-serif;
+}
 /* COLOR */
 
 .c-white{
