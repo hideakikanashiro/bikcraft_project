@@ -11,6 +11,7 @@
 
 /* UTILIDADES */
 @import url(./utilidades/componentes.css);
+@import url(./utilidades/formulario.css);
 
 /* HOME */
 @import url(./home/introducao.css);
