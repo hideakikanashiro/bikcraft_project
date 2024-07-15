@@ -35,4 +35,6 @@
 @import url(./contato/lojas.css);
 
 /* BICICLETAS INTENRO */
+
 @import url(./bicicletas-interno/bicicleta.css);
+@import url(./bicicletas-interno/seguro.css);
