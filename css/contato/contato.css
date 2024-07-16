@@ -66,6 +66,10 @@
      padding-left: 28px;
  }
 
+.form label{
+    color: rgb(12, 12, 12);
+}
+
  /* Media Query */
 
  @media (max-width: 800px) {
