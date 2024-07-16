@@ -23,11 +23,49 @@
 
 .lojas-conteudo {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 32px 16px;
+    padding: 32px;
+    grid-template-columns: 1fr 1fr;
 }
 
 .lojas-conteudo h3,
 .lojas-tempo {
     grid-column: 1/-1;
+}
+
+.lojas-dados {
+    display: grid;
+    gap: 8px;
+    border-left: 2px solid;
+    padding-left: 12px;
+}
+
+.lojas-tempo {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 800px) {
+    .lojas {
+        gap: 20px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .lojas h2 {
+        margin-bottom: 32px;
+    }
+
+    .lojas-conteudo {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600) {
+    .lojas {
+        grid-template-columns: 1fr;
+    }
 }
