@@ -8,13 +8,14 @@
     grid-column: span 2;
 }
 
-.form input [type="text"],
-.form input [type="email"],
+.form input[type="text"],
+.form input[type="email"],
 .form textarea {
-    font: 400 1rem/1.5 "Roboto", sans-serif;
-    background: rgb(228, 228, 228);
+    font: 400 1rem/1.5 "Poppins", sans-serif;
+    background: rgb(233, 233, 233);
     border: 1px solid rgb(189, 189, 189);
     padding: 12px;
+    margin-bottom: 24px;
     border-radius: 4px;
     width: 100%;
     box-sizing: border-box;
@@ -26,7 +27,7 @@
     outline: none;
     border-color: rgb(255, 200, 0);
     background: white;
-    box-shadow: 0 0 0 3px rgb(255, 255, 93);
+    box-shadow: 0 0 0 3px rgb(248, 248, 186);
 }
 
 /* MEDIA QUERY */
