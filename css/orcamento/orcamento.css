@@ -78,8 +78,8 @@
     background-color: rgb(184, 184, 184);
  }
 
- .orcamento-produto input:focus + label {
-   box-shadow: 0 0 0 2px rgb(255, 187, 0);
+ .orcamento-produto input:focus+label {
+    box-shadow: 0 0 0 2px rgb(255, 187, 0);
  }
 
  .orcamento-produto label:focus {
@@ -106,8 +106,6 @@
     color: black;
  }
 
-
-
  .orcamento-produto>* {
     grid-column: initial;
  }
@@ -115,6 +113,11 @@
  .orcamento-dados {
     border-radius: 0px 5px 5px 0px;
     background: rgb(255, 255, 255);
+ }
+
+ /* ESSE AQUI ATIVA E DESATIVA PARA VISUALIZAR OS BOTÕES FUNCIONANDO NA PRATICA */
+ .orcamento-conteudo {
+    display: none;
  }
 
  .orcamento-conteudo h2,
@@ -126,4 +129,56 @@
  #seguro:checked~#orcamento-seguro {
     display: grid;
     gap: 20px;
+ }
+
+ .orcamento-detalhes {
+    display: none;
+    background-color: aqua;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 4px;
+    align-items: center;
+ }
+
+ .orcamento-detalhes li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+ }
+
+ .orcamento-detalhes li img {
+    width: 16px;
+    margin-right: 8px;
+ }
+
+ .orcamento-produto input:checked+label+.orcamento-detalhes {
+    display: grid;
+ }
+
+ @media (max-width: 1200) {
+
+    .orcamento-produto,
+    .orcamento-dados {
+       padding: 32px;
+    }
+ }
+
+ @media (max-width: 800) {
+    .orcamento {
+       grid-template-columns: 1fr 1fr;
+    }
+
+    .orcamento-produto{
+      border-radius: 5px 5px 0 0;
+    }
+
+    .orcamento-dados{
+      border-radius: 0 0 5px 5px;
+    }
+ }
+
+ @media (max-width: 400){
+   .orcamento-produto{
+      grid-template-columns: 1fr;
+   }
  }
