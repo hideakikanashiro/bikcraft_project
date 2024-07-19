@@ -107,6 +107,10 @@
  }
 
  .orcamento-produto>* {
+    grid-column: 1/-1;
+ }
+
+ .orcamento-produto>label {
     grid-column: initial;
  }
 
@@ -168,17 +172,17 @@
        grid-template-columns: 1fr 1fr;
     }
 
-    .orcamento-produto{
-      border-radius: 5px 5px 0 0;
+    .orcamento-produto {
+       border-radius: 5px 5px 0 0;
     }
 
-    .orcamento-dados{
-      border-radius: 0 0 5px 5px;
+    .orcamento-dados {
+       border-radius: 0 0 5px 5px;
     }
  }
 
- @media (max-width: 400){
-   .orcamento-produto{
-      grid-template-columns: 1fr;
-   }
+ @media (max-width: 400) {
+    .orcamento-produto {
+       grid-template-columns: 1fr;
+    }
  }
