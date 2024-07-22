@@ -25,8 +25,7 @@ termos.html - #Página para o termos e condições das compras
 
 <h2>Tecnologias Utilizadas</h2>
 HTML5: Estrutura semântica e acessível.</br>
-CSS3: Design responsivo e estilização avançada.</br>
-JavaScript: Funcionalidades interativas básicas.
+CSS3: Design responsivo e estilização</br>
 
 <h2>Objetivo Profissional</h2>
 Este projeto reflete meu comprometimento com a qualidade e meu desejo de aprender e crescer na indústria de tecnologia, tendo como objetivo ser destaque na área.
