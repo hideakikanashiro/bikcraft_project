@@ -16,22 +16,22 @@ Este repositório foi criado para estudar e aprimorar meus conhecimentos e boas 
 ![Página Bicicletas 2](https://github.com/user-attachments/assets/26283631-ed7e-431e-828f-fe95c18d7886)
 
 <h2>Estrutura do Projeto</h2>
-index.html - #Página inicial
-bicicletas.html - #Página com opções de Bicicletas
-contato.html - #Página para contato
-orcamento.html - #Página para fazer orçamento (SOMENTE CSS)
-seguros.html - #Página para escolher o seguro
+index.html - #Página inicial </br>
+bicicletas.html - #Página com opções de Bicicletas</br>
+contato.html - #Página para contato</br>
+orcamento.html - #Página para fazer orçamento (SOMENTE CSS)</br>
+seguros.html - #Página para escolher o seguro</br>
 termos.html - #Página para o termos e condições das compras
 
 <h2>Tecnologias Utilizadas</h2>
-HTML5: Estrutura semântica e acessível.
-CSS3: Design responsivo e estilização avançada.
+HTML5: Estrutura semântica e acessível.</br>
+CSS3: Design responsivo e estilização avançada.</br>
 JavaScript: Funcionalidades interativas básicas.
 
 <h2>Objetivo Profissional</h2>
 Este projeto reflete meu comprometimento com a qualidade e meu desejo de aprender e crescer na indústria de tecnologia, tendo como objetivo ser destaque na área.
 
 <h2>Algo que me incomodou neste projeto. (Aprimorar Futuramente)</h2>
-- Classes demasiadas;
-- O objetivo era somente HTML e CSS, mas vou fazer o form utilizando JavaScript;
+- Classes demasiadas;</br>
+- O objetivo era somente HTML e CSS, mas vou fazer o form utilizando JavaScript;</br>
 - Organização de fonts.
