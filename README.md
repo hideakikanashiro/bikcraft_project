@@ -5,7 +5,7 @@
 Este repositório foi criado para estudar e aprimorar meus conhecimentos e boas práticas em HTML, CSS e bem pouquinho de JavaScript. O intuito até então é fazer o máximo sem utilizar nada de JavaScript (mesmo que seja mais fácil utilizar o JavaScript, tentar buscar uma forma sem utilizar ele) e aplicar boas práticas de desenvolvimento web.
 
 <h2>Screenshot</h2>
-![chrome _ 00h-27min](https://github.com/user-attachments/assets/c3828743-9316-4f10-a463-966055d747b0)
+(https://github.com/user-attachments/assets/c3828743-9316-4f10-a463-966055d747b0)
 
 
 
