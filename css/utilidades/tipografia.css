@@ -22,6 +22,11 @@
   color: rgb(233, 233, 233);
 }
 
+.texto-medio-preto {
+  font: 400 2.0rem/1.5 "Poppins", sans-serif;
+  color: rgb(19, 19, 19);
+}
+
 .texto-p-importante-cinza {
   font: 600 1.3rem/1.5 "Roboto", sans-serif;
   color: rgb(245, 245, 245);

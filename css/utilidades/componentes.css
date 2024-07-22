@@ -10,12 +10,12 @@
 
 .botao {
   display: inline-block;
-  color: rgb(44, 36, 2);
+  color: rgb(20, 20, 20);
   background: linear-gradient(rgb(243, 220, 8), rgb(204, 137, 12));
   font-size: 18px;
   font-weight: 500;
   line-height: 1.33;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   padding: 10px 16px;
   border-radius: 4px;
   box-shadow: 0 1px 20px rgb(20, 20, 20, 0.1);

@@ -137,7 +137,7 @@
 
  .orcamento-detalhes {
     display: none;
-    background-color: aqua;
+    background-color: rgb(201, 201, 201);
     padding: 20px;
     grid-template-columns: 1fr 1fr;
     border-radius: 4px;

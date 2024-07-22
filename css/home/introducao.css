@@ -1,7 +1,7 @@
 /* INTRODUÇÃO */
 
 .introducao-bg {
-  background-color: #0e0e0e;
+  background-color: #161616;
   color: rgb(255, 255, 255);
   box-shadow: inset 0px -120px white;
 }
@@ -12,7 +12,9 @@
   gap: 20px;
 }
 
-h1 span {
+h1 span,
+h2 span,
+h3 span {
   color: rgb(247, 223, 10);
 }
 
