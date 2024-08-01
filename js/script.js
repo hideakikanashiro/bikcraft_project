@@ -17,8 +17,7 @@ links.forEach(ativarLink);
 
 
 
-
-// Pegar os valores da URL da pagina orcamento
+// PEGAR VALORES DA URL DA PAGINA ORÇAMENTO
 
 const parametros = new URLSearchParams(location.search);
 
