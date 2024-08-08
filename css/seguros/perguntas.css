@@ -3,20 +3,20 @@
     padding-bottom: 120px;
 }
 
-.perguntas h2{
+.perguntas h2 {
     margin-bottom: 60px;
 }
 
-.perguntas dl > div{
+.perguntas dl>div {
     padding: 40px;
     border-radius: 4px;
 }
 
-.perguntas dl > div:nth-child(odd){
+.perguntas dl>div:nth-child(odd) {
     background-color: rgb(243, 243, 243);
 }
 
-.perguntas button{
+.perguntas button {
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
@@ -28,7 +28,7 @@
     text-align: left;
 }
 
-.perguntas button::before{
+.perguntas button::before {
     content: "";
     display: inline-block;
     width: 12px;
@@ -36,7 +36,7 @@
     background-color: rgb(234, 185, 9);
 }
 
-.perguntas button::after{
+.perguntas button::after {
     content: "";
     display: inline-block;
     width: 14px;
@@ -46,19 +46,21 @@
     transform: rotate(-90deg);
 }
 
-/* ROTACIONAR O ICONE */
-.perguntas button:hover::after{
+/* ANIMAÇÃO ROTACIONAR O ICONE */
+/* criei um seletor. quando aria-expanded estiver true, ele vai manter a rotação 180deg. [lembrete]Tem que ser colocado depois do button hover anterior. Por questão de ordem de execução  */
+.perguntas button:hover::after,
+.perguntas button:hover[aria-expanded="true"]::after {
     transform: rotate(180deg);
-} 
+}
 
-.perguntas dd{
+.perguntas dd {
     padding-left: 20px;
     padding-top: 16px;
     max-width: 80ch
 }
 
-@media (max-width){
-    .perguntas{
+@media (max-width) {
+    .perguntas {
         padding-top: 60px;
         padding-bottom: 60px;
     }
