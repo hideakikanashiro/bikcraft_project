@@ -8,6 +8,7 @@
     content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikecraft.">
   <title>Bikecraft - Bicicletas Elétricas</title>
   <link rel="stylesheet" href="./css/style.css">
+<script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body>
@@ -31,17 +32,18 @@
   <main class="introducao-bg">
     <div class="container introducao">
       <div class="introducao-conteudo">
-        <h1 class="texto-grande">Bicicletas feitas sob medida<span>.</span></h1>
-        <p class="texto-medio">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikecraft.</p>
-        <a href="./bicicletas.html" class="botao">Selecione a sua</a>
+        <h1 class="texto-grande" data-anime="200">Bicicletas feitas sob medida<span>.</span></h1>
+        <p class="texto-medio" data-anime="400">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente.
+          Explore o mundo na sua velocidade com a Bikecraft.</p>
+        <a href="./bicicletas.html" class="botao" data-anime="400">Selecione a sua</a>
       </div>
-      <img src="./img/fotos/introducao.jpg" alt="Bicicleta Elétrica Preta">
+      <img class="fadeInRight" data-anime=200 src="./img/fotos/introducao.jpg" alt="Bicicleta Elétrica Preta">
     </div>
   </main>
 
   <!-- LISTA BICICLETAS ------------------------->
   <article class="bicicletas-lista">
-    <h2 class="container texto-grande2">vai escolher qual<span>?</span></h2>
+    <h2 class="container texto-grande2 fadeInDown" data-anime="200">vai escolher qual<span>?</span></h2>
     <ul>
       <li>
         <a href="./bicicletas/magic.html">
@@ -226,7 +228,8 @@
     </div>
 
   </footer>
-<script src="./js/script.js"></script>
+  <script src="./js/plugin/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

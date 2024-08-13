@@ -77,3 +77,12 @@ function eventosGaleria(img) {
 
 
 galeria.forEach(eventosGaleria)
+
+
+
+
+// ANIMATION
+// executar somente se existir um script simple-anime.js
+if (window.SimpleAnime){
+   new SimpleAnime();
+}

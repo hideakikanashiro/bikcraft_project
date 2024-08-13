@@ -16,11 +16,11 @@
     background-color: rgb(243, 243, 243);
 }
 
-.perguntas dd{
+.js .perguntas dd{
     display: none;
 }
 
-.perguntas dd.ativa {
+.js .perguntas dd.ativa {
     display: block;
 }
 
