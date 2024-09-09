@@ -77,4 +77,21 @@
         content: '"';
         display: none;
     }
+
+    .depoimento p::before {
+        font-size: 2rem;
+        left: -18px;
+        top: -10px;
+    }
+
+    .depoimento p::after{
+        font-size: 2rem;
+        right: 6px;
+        bottom: -16px;
+    }
+
+    .depoimento-conteudo p {
+        max-width: 24ch;
+        font-size: 18px;
+    }
 }

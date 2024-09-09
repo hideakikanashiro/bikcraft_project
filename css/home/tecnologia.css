@@ -19,8 +19,7 @@
 }
 
 .tecnologia-conteudo{
-  padding-top: 160px;
-  padding-bottom: 160px;
+padding: 160px 0;
 }
 
 .tecnologia-conteudo > span{
@@ -96,6 +95,10 @@ object-position: left;
     padding-top: 60px;
     padding-bottom: 60px;
   }
+
+.tecnologia-conteudo h2{
+  font-size: 30px;
+}
 
   .tecnologia-img{
     display: none;

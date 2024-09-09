@@ -47,6 +47,10 @@
     margin-bottom: 20px;
   }
 
+  .parceiros h2 span {
+    display: none;
+  }
+
   .parceiros ul {
     grid-template-columns: repeat(2, 1fr);
   }
